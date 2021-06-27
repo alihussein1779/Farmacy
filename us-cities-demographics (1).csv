@@ -1,0 +1,25 @@
+City;State;Median Age;Male Population;Female Population;Total Population;Number of Veterans;Foreign-born;Average Household Size;State Code;Race;Count
+Charleston;South Carolina;35.0;63956;71568;135524;9368;5767;2.4;SC;White;104016
+North Charleston;South Carolina;30.7;56549;55315;111864;9651;8789;2.8200000000000003;SC;Asian;4181
+Charleston;South Carolina;35.0;63956;71568;135524;9368;5767;2.4;SC;Hispanic or Latino;3929
+North Charleston;South Carolina;30.7;56549;55315;111864;9651;8789;2.8200000000000003;SC;Hispanic or Latino;12975
+Rock Hill;South Carolina;34.5;33324;38243;71567;4755;2413;2.29;SC;Black or African-American;28204
+Columbia;South Carolina;28.0;67686;65707;133393;5708;6074;2.32;SC;Black or African-American;56398
+Mount Pleasant;South Carolina;42.7;39429;41880;81309;3981;4701;2.5300000000000002;SC;White;75908
+Columbia;South Carolina;28.0;67686;65707;133393;5708;6074;2.32;SC;Hispanic or Latino;7545
+Mount Pleasant;South Carolina;42.7;39429;41880;81309;3981;4701;2.5300000000000002;SC;Hispanic or Latino;2569
+Charleston;South Carolina;35.0;63956;71568;135524;9368;5767;2.4;SC;Black or African-American;29998
+Columbia;South Carolina;28.0;67686;65707;133393;5708;6074;2.32;SC;Asian;3501
+Rock Hill;South Carolina;34.5;33324;38243;71567;4755;2413;2.29;SC;White;41652
+Rock Hill;South Carolina;34.5;33324;38243;71567;4755;2413;2.29;SC;American Indian and Alaska Native;610
+Columbia;South Carolina;28.0;67686;65707;133393;5708;6074;2.32;SC;White;73232
+Columbia;South Carolina;28.0;67686;65707;133393;5708;6074;2.32;SC;American Indian and Alaska Native;1420
+North Charleston;South Carolina;30.7;56549;55315;111864;9651;8789;2.8200000000000003;SC;Black or African-American;56734
+North Charleston;South Carolina;30.7;56549;55315;111864;9651;8789;2.8200000000000003;SC;American Indian and Alaska Native;1042
+Rock Hill;South Carolina;34.5;33324;38243;71567;4755;2413;2.29;SC;Hispanic or Latino;2845
+North Charleston;South Carolina;30.7;56549;55315;111864;9651;8789;2.8200000000000003;SC;White;48956
+Rock Hill;South Carolina;34.5;33324;38243;71567;4755;2413;2.29;SC;Asian;1073
+Mount Pleasant;South Carolina;42.7;39429;41880;81309;3981;4701;2.5300000000000002;SC;Asian;1827
+Charleston;South Carolina;35.0;63956;71568;135524;9368;5767;2.4;SC;Asian;2773
+Mount Pleasant;South Carolina;42.7;39429;41880;81309;3981;4701;2.5300000000000002;SC;Black or African-American;3730
+Charleston;South Carolina;35.0;63956;71568;135524;9368;5767;2.4;SC;American Indian and Alaska Native;633
