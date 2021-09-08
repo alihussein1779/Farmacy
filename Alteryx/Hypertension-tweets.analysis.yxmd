@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>hypertension-query-tweets.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="_type" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="url" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="date" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="content" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="renderedContent" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="id" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="user" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="replyCount" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="retweetCount" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="likeCount" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="quoteCount" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="conversationId" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="lang" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="source" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="sourceUrl" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="sourceLabel" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="outlinks" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="tcooutlinks" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="media" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="retweetedTweet" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="quotedTweet" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="inReplyToTweetId" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="inReplyToUser" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="mentionedUsers" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="coordinates" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="place" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="hashtags" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="cashtags" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="Sentiment">
+        <Position x="318" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <language>EN</language>
+          <field>content</field>
+          <algorithm>VADER</algorithm>
+          <tokenize>true</tokenize>
+          <categorical>true</categorical>
+          <negativeThreshold>-0.1</negativeThreshold>
+          <positiveThreshold>0.5</positiveThreshold>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="Python" EngineDllEntryPoint="Sentiment\sentiment_engine.py" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="TextPreProcessing">
+        <Position x="186" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <field>content</field>
+          <language>EN</language>
+          <lemmatize>false</lemmatize>
+          <digits>false</digits>
+          <punctuation>false</punctuation>
+          <stopwords>true</stopwords>
+          <defaultStopwords>true</defaultStopwords>
+          <addedStopwords>https</addedStopwords>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="Python" EngineDllEntryPoint="TextPreProcessing\text_preprocessing_engine.py" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="WordCloud">
+        <Position x="354" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <field>content</field>
+          <customize>true</customize>
+          <backgroundColor>
+            <hex>#ffffff</hex>
+            <hsl>
+              <h>249.99999999999994</h>
+              <s>0</s>
+              <l>1</l>
+              <a>1</a>
+            </hsl>
+          </backgroundColor>
+          <theme>magma</theme>
+          <maxWords>250</maxWords>
+          <phrases>true</phrases>
+          <width>1200</width>
+          <height>900</height>
+          <mask />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="Python" EngineDllEntryPoint="WordCloud\word_cloud_engine.py" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="462" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType />
+          <OutputFile>hypertension_wordCloud.png</OutputFile>
+          <BatchMode value="False" />
+          <DataField>word_cloud</DataField>
+          <Separator>Continuous</Separator>
+          <EmbedDependencies value="False" />
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="462" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">hypertension_query_Sentiment.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>hypertension_query_Sentiment.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>hypertension-query-tweets.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="_type" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="url" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="date" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="content" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="renderedContent" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="id" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="user" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="replyCount" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="retweetCount" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="likeCount" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="quoteCount" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="conversationId" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="lang" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="source" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="sourceUrl" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="sourceLabel" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="outlinks" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="tcooutlinks" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="media" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="retweetedTweet" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="quotedTweet" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="inReplyToTweetId" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="inReplyToUser" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="mentionedUsers" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="coordinates" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="place" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="hashtags" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+            <Field name="cashtags" size="254" source="File: C:\Python\Team 31\Mandi-Tweets\hypertension-query-tweets.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="textInput" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>Urban Analysis</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="af493a5d-d877-4d91-b748-2b43239b8c47" />
+      <Telemetry>
+        <PreviousWorkflowId value="69f4b4ab-9606-409a-a976-845bdeae2bfe" />
+        <OriginWorkflowId value="7b1d1b0c-daac-4ec0-ba5e-ffb0611d9bb3" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

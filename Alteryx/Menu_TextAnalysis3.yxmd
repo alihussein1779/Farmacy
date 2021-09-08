@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="126" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c><![CDATA[Command
+Commanding what you see?
+Commanding  what you believe the symbols to be
+Command what you think these will mean
+When your eyes go to dream
+Wondering why are these flowing?
+Why are some symbols growing?
+Who is in charge?
+What are the symbols doing?
+Which elements are their influences
+While they barge?
+Who is in command?
+What do they hold in their hand?
+]]></c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="Sentiment">
+        <Position x="258" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <language>EN</language>
+          <field>Field1</field>
+          <algorithm>VADER</algorithm>
+          <tokenize>false</tokenize>
+          <categorical>false</categorical>
+          <negativeThreshold>-0.1</negativeThreshold>
+          <positiveThreshold>0.5</positiveThreshold>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="Python" EngineDllEntryPoint="Sentiment\sentiment_engine.py" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\skyis\AppData\Local\Temp\Engine_37400_408bde23d7424508972382c448cba23d_\Engine_31960_47beb2b105d64256b94149d3e5452a6d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="126" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c><![CDATA[Command
+Commanding what you see?
+Commanding  what you believe the symbols to be
+Command what you think these will mean
+When your eyes go to dream
+Wondering why are these flowing?
+Why are some symbols growing?
+Who is in charge?
+What are the symbols doing?
+Which elements are their influences
+While they barge?
+Who is in command?
+What do they hold in their hand?
+]]></c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="Sentiment">
+        <Position x="258" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <language>EN</language>
+          <field>Field1</field>
+          <algorithm>VADER</algorithm>
+          <tokenize>false</tokenize>
+          <categorical>true</categorical>
+          <negativeThreshold>-0.1</negativeThreshold>
+          <positiveThreshold>0.5</positiveThreshold>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="Python" EngineDllEntryPoint="Sentiment\sentiment_engine.py" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="390" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\skyis\AppData\Local\Temp\Engine_37400_408bde23d7424508972382c448cba23d_\Engine_31960_b686fe7120684d27be1c795fe171cab0_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="126" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c><![CDATA[Command
+Commanding what you see?
+Commanding  what you believe the symbols to be
+Command what you think these will mean
+When your eyes go to dream
+Wondering why are these flowing?
+Why are some symbols growing?
+Who is in charge?
+What are the symbols doing?
+Which elements are their influences
+While they barge?
+Who is in command?
+What do they hold in their hand?
+]]></c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="WordCloud">
+        <Position x="282" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <field>Field1</field>
+          <customize>false</customize>
+          <backgroundColor>
+            <hex>#ffffff</hex>
+            <hsl>
+              <h>249.99999999999994</h>
+              <s>0</s>
+              <l>1</l>
+              <a>1</a>
+            </hsl>
+          </backgroundColor>
+          <theme>viridis</theme>
+          <maxWords>250</maxWords>
+          <phrases>true</phrases>
+          <width>200</width>
+          <height>200</height>
+          <mask />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="Python" EngineDllEntryPoint="WordCloud\word_cloud_engine.py" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\skyis\AppData\Local\Temp\Engine_37400_408bde23d7424508972382c448cba23d_\Engine_31960_e2ebf2deb7a841f386edc15c16660bd8_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="textInput" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Menu_TextAnalysis3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3cf32758-38f1-4437-8e1c-c40d6a931bdd" />
+      <Telemetry>
+        <PreviousWorkflowId value="f77aac1a-cd9d-4403-932c-55ceb111691f" />
+        <OriginWorkflowId value="3cf32758-38f1-4437-8e1c-c40d6a931bdd" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

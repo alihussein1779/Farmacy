@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="MenuItemID" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Restaurant" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Food_Category" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Name_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Description_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_text_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_Unit_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_household_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Calories_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Total_Fat_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Saturated_Fat_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Trans_Fat_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Cholesterol_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Sodium_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Potassium_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Carbohydrates_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Dietary_Fiber_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Sugar_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Protein_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Calories_text_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Total_Fat_text_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Saturated_Fat_text_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Trans_Fat_text_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Cholesterol_text_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Sodium_text_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Potassium_text_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Carbohydrates_text_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Dietary_Fiber_text_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Sugar_text_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Protein_text_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Kids_Meal_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Limited_Time_Offer_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Regional_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Shareable_2018" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Name_2017" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Description_2017" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_2017" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_text_2017" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_Unit_2017" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_household_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_text_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_text_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_text_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_text_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_text_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_text_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_text_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_text_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_text_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_text_2017 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_text_2017" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Kids_Meal_2017" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Limited_Time_Offer_2017" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Regional_2017" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Shareable_2017" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Name_2016" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Description_2016" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_2016" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_text_2016" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_Unit_2016" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_household_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_text_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_text_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_text_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_text_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_text_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_text_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_text_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_text_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_text_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_text_2016 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_text_2016" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Kids_Meal_2016" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Limited_Time_Offer_2016" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Regional_2016" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Shareable_2016" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Name_2015" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Description_2015" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_2015" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_text_2015" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_Unit_2015" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_household_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_text_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_text_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_text_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_text_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_text_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_text_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_text_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_text_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_text_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_text_2015 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_text_2015" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Kids_Meal_2015" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Limited_Time_Offer_2015" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Regional_2015" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Shareable_2015" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Name_2014" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Description_2014" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_2014" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_text_2014" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_Unit_2014" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_household_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_text_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_text_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_text_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_text_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_text_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_text_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_text_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_text_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_text_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_text_2014 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_text_2014" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Kids_Meal_2014" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Limited_Time_Offer_2014" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Regional_2014" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Shareable_2014" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Name_2013" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Description_2013" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_2013" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_text_2013" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_Unit_2013" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_household_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_text_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_text_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_text_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_text_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_text_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_text_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_text_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_text_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_text_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_text_2013 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_text_2013" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Kids_Meal_2013" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Limited_Time_Offer_2013" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Regional_2013" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Shareable_2013" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Name_2012" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Description_2012" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_2012" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_text_2012" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_Unit_2012" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_household_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_text_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_text_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_text_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_text_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_text_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_text_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_text_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_text_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_text_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_text_2012 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_text_2012" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Kids_Meal_2012" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Limited_Time_Offer_2012" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Regional_2012" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Shareable_2012" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Name_2010" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Description_2010" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_2010" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_text_2010" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_Unit_2010" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_household_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_text_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_text_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_text_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_text_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_text_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_text_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_text_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_text_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_text_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_text_2010 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_text_2010" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Kids_Meal_2010" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Limited_Time_Offer_2010" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Regional_2010" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Shareable_2010" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Name_2008" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Item_Description_2008" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_2008" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_text_2008" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_Unit_2008" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Serving_Size_household_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Calories_text_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Total_Fat_text_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Saturated_Fat_text_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Trans_Fat_text_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Cholesterol_text_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sodium_text_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Potassium_text_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Carbohydrates_text_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Dietary_Fiber_text_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Sugar_text_2008 " size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name=" Protein_text_2008" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Kids_Meal_2008" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Limited_Time_Offer_2008" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Regional_2008" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+            <Field name="Shareable_2008" size="254" source="File: C:\Python\Team 31\Search_Export2018_2017_2016_2015_2014_2013_2012_2010_2008.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="TextPreProcessing">
+        <Position x="342" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <field>Item_Name_2018</field>
+          <language>EN</language>
+          <lemmatize>false</lemmatize>
+          <digits>false</digits>
+          <punctuation>false</punctuation>
+          <stopwords>true</stopwords>
+          <defaultStopwords>true</defaultStopwords>
+          <addedStopwords>
+          </addedStopwords>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="Python" EngineDllEntryPoint="TextPreProcessing\text_preprocessing_engine.py" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="WordCloud">
+        <Position x="498" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <field>Item_Name_2018</field>
+          <customize>false</customize>
+          <backgroundColor>
+            <hex>#ffffff</hex>
+            <hsl>
+              <h>249.99999999999994</h>
+              <s>0</s>
+              <l>1</l>
+              <a>1</a>
+            </hsl>
+          </backgroundColor>
+          <theme>viridis</theme>
+          <maxWords>250</maxWords>
+          <phrases>true</phrases>
+          <width>200</width>
+          <height>200</height>
+          <mask />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="Python" EngineDllEntryPoint="WordCloud\word_cloud_engine.py" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="642" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType />
+          <OutputFile>C:\Python\Team 31\Alteryx Master Plan\Menu_WordCloud_WithStopWords.png</OutputFile>
+          <BatchMode value="False" />
+          <DataField>word_cloud</DataField>
+          <Separator>Continuous</Separator>
+          <EmbedDependencies value="False" />
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="textInput" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Menu_TextAnalysis2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="95137117-9094-4fe9-80b0-96597cac55b6" />
+      <Telemetry>
+        <PreviousWorkflowId value="f8b0f988-0839-4224-af39-f5e3c81d6402" />
+        <OriginWorkflowId value="95137117-9094-4fe9-80b0-96597cac55b6" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

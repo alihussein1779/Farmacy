@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="Sentiment">
+        <Position x="282" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <language>EN</language>
+          <field>content</field>
+          <algorithm>VADER</algorithm>
+          <tokenize>true</tokenize>
+          <categorical>true</categorical>
+          <negativeThreshold>-0.1</negativeThreshold>
+          <positiveThreshold>0.5</positiveThreshold>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="Python" EngineDllEntryPoint="Sentiment\sentiment_engine.py" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="426" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">obesity_query_Sentiment.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>obesity_query_Sentiment.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>obesity-query-tweets.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="_type" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="url" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="date" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="content" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="renderedContent" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="id" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="user" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="replyCount" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="retweetCount" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="likeCount" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="quoteCount" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="conversationId" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="lang" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="source" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="sourceUrl" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="sourceLabel" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="outlinks" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="tcooutlinks" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="media" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="retweetedTweet" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="quotedTweet" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="inReplyToTweetId" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="inReplyToUser" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="mentionedUsers" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="coordinates" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="place" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="hashtags" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+            <Field name="cashtags" size="254" source="File: C:\Python\Team 31\Alteryx Master Plan\obesity-query-tweets.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Obesity_analysis</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="5d07990f-8390-4934-9376-01ff17649918" />
+      <Telemetry>
+        <PreviousWorkflowId value="6fe310a5-cb72-4f11-a259-d8922a8d51c8" />
+        <OriginWorkflowId value="5d07990f-8390-4934-9376-01ff17649918" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
