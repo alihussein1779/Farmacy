@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="162" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="12">C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp</File>
+          <FormatSpecificOptions>
+            <Projection />
+            <AllStrings>False</AllStrings>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SouthernStatesTreeScore.shp</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="geoid" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Int64" />
+            <Field name="total_pop" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="state" size="80" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="V_String" />
+            <Field name="county" size="80" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="V_String" />
+            <Field name="pctpov" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="pctpoc" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="unemplrate" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="medhhinc" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="dep_ratio" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="child_perc" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="seniorperc" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="treecanopy" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="area" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="source" size="80" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="V_String" />
+            <Field name="avg_temp" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="ua_name" size="80" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="V_String" />
+            <Field name="incorpname" size="80" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="V_String" />
+            <Field name="congressio" size="80" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="V_String" />
+            <Field name="biome" size="80" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="V_String" />
+            <Field name="bgpopdense" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="popadjust" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="tc_gap" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="tc_goal" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="phys_hlth" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="ment_hlth" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="asthma" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="core_m" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="core_w" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="core_norm" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="healthnorm" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="priority" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="tes" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="tesctyscor" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="Double" />
+            <Field name="SpatialObj" size="2147483647" source="File: C:\Python\Team 31\State Score\SouthernStatesTreeScore.shp" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="318" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>pctpoc</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-08-04 19:53:40</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>.50</Operand>
+              <StartDate>2021-08-04 19:53:40</StartDate>
+              <EndDate>2021-08-04 19:53:40</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[pctpoc] &gt; .50</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="450" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="12" MaxRecords="">SouthernStatesTreeScoreMajPOC.shp</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <SpatialObjField>SpatialObj</SpatialObjField>
+            <Projection />
+            <CodePage>0</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SouthernStatesTreeScoreMajPOC.shp</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="True" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>southerntreescore_clean</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="828bddb6-6f05-4440-8919-852b78138f56" />
+      <Telemetry>
+        <PreviousWorkflowId value="054ca6d0-df37-43b8-bb50-275ddace5e11" />
+        <OriginWorkflowId value="828bddb6-6f05-4440-8919-852b78138f56" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
