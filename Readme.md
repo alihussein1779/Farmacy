@@ -1,6 +1,7 @@
-# Team 31 project:
+# Team 31 project - Farmacy:
 
-This repository contains all the files pertaining to the capstone project by  Team 31 in the DS4A DataScience program.
+This repository contains all the files pertaining to the capstone project by  Team 31 in the DS4A DataScience program. 
+It is based on data related to food related illnesses affecting minority populations in the South.
 
 Datafolio:
 
