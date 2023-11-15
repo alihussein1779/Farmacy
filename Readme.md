@@ -9,3 +9,7 @@ Datafolio:
 Team members:
 
 ![Team31 Finalists](https://github.com/alihussein1779/DS4A_Capstone/assets/83554714/f94c0929-b97c-4986-a69a-deae6455e8b3)
+
+Link to summarized video: https://youtu.be/KozZYBXdSHQ?si=bUnA8oqP980Tj2P6
+
+Link to summarized blog: https://www.correlation-one.com/blog/ds4a-capstone-project-spotlight-combatting-the-effects-of-a-fast-food-lifestyle-with-vertical-farming-initiatives
